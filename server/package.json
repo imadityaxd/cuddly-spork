@@ -4,15 +4,10 @@
   "description": "",
   "license": "ISC",
   "author": "xdcoder",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^5.1.0"
-  },
-  "devDependencies": {},
-  "keywords": []
+    "start": "node index.js"
+
+  }
 }
