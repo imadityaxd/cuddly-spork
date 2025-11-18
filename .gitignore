@@ -1,0 +1,114 @@
+# -----------------------------------------
+# Node.js / Backend
+# -----------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+log.txt
+debug.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Nodemon files
+nodemon-debug.log
+
+# Temporary files
+tmp/
+temp/
+
+# -----------------------------------------
+# Frontend (React / Vite / Next.js)
+# -----------------------------------------
+# Dependencies
+frontend/node_modules/
+client/node_modules/
+
+# Output
+frontend/dist/
+client/dist/
+.next/
+out/
+coverage/
+
+# Env
+frontend/.env
+frontend/.env.local
+client/.env
+client/.env.local
+
+# Vite
+.vite/
+
+# -----------------------------------------
+# Python (if backend uses Flask/Django)
+# -----------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.tmp
+*.log
+.venv/
+venv/
+env/
+
+# Django
+*.sqlite3
+media/
+staticfiles/
+
+# -----------------------------------------
+# VS Code
+# -----------------------------------------
+.vscode/
+.history/
+
+# -----------------------------------------
+# OS files
+# -----------------------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------------------
+# Docker
+# -----------------------------------------
+# Ignore local docker files
+docker-compose.override.yml
+.docker/
+docker-data/
+*.tar
+
+# -----------------------------------------
+# Git
+# -----------------------------------------
+*.orig
+*.rej
+
+# -----------------------------------------
+# Misc
+# -----------------------------------------
+*.swp
+*.swo
+.idea/
+*.iml
+
+# Local backups
+*.bak
+*.tmp
