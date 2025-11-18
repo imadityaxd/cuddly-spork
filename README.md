@@ -2,7 +2,7 @@
 
 ---
 
-# ✅ **READY-TO-COPY README.md**
+# ✅ **README.md**
 
 ```markdown
 # Fullstack Development Environment (VS Code + Docker + GitHub)
